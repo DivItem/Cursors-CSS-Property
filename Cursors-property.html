@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursors CSS Property</title>
+    <style>
+        body {
+            background-color: #004052;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        .cursors-property-area {
+            padding: 30px 0;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .property-heading {
+            padding: 0 10px 20px 10px;
+            text-align: center;
+        }
+        .property-heading h2 {
+            font-size: 50px;
+            margin: 0;
+            font-weight: 500;
+        }
+        .property-heading p {
+            font-size: 20px;
+        }
+        .cursors-property {
+            text-align: center;
+        }
+        .single-property {
+            background-color: #005C8A;
+            height: 130px;
+            width: 130px;
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+            line-height: 128px;
+            transition: all .3s;
+        }
+        .single-property:hover {
+            box-shadow: 0 2px 15px #010124;
+        }
+        .alias {cursor: alias;}
+        .all-scroll {cursor: all-scroll;}
+        .auto {cursor: auto;}
+        .cell {cursor: cell;}
+        .col-resize {cursor: col-resize;}
+        .context-menu {cursor: context-menu;}
+        .copy {cursor: copy;}
+        .crosshair {cursor: crosshair;}
+        .default {cursor: default;}
+        .e-resize {cursor: e-resize;}
+        .ew-resize {cursor: ew-resize;}
+        .grab {cursor: grab;}
+        .grabbing {cursor: grabbing;}
+        .help {cursor: help;}
+        .move {cursor: move;}
+        .n-resize {cursor: n-resize;}
+        .ne-resize {cursor: ne-resize;}
+        .nesw-resize {cursor: nesw-resize;}
+        .ns-resize {cursor: ns-resize;}
+        .nw-resize {cursor: nw-resize;}
+        .nwse-resize {cursor: nwse-resize;}
+        .no-drop {cursor: no-drop;}
+        .none {cursor: none;}
+        .not-allowed {cursor: not-allowed;}
+        .pointer {cursor: pointer;}
+        .progress {cursor: progress;}
+        .row-resize {cursor: row-resize;}
+        .s-resize {cursor: s-resize;}
+        .se-resize {cursor: se-resize;}
+        .sw-resize {cursor: sw-resize;}
+        .text {cursor: text;}
+        .url {cursor: url(myBall.cur),auto;}
+        .w-resize {cursor: w-resize;}
+        .wait {cursor: wait;}
+        .zoom-in {cursor: zoom-in;}
+        .zoom-out {cursor: zoom-out;}
+
+        /* For Mobile Responsive */
+        @media (min-width: 320px) and (max-width: 480px) {
+            .cursors-property-area {
+                max-width: 100%;
+            }
+            .property-heading h2 {
+                font-size: 35px;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cursors-property-area">
+        <div class="property-heading">
+            <h2>Cursors CSS Property</h2>
+            <p>User interactions using Cursors CSS property. Check out some of the options below.</p>
+        </div>
+        <div class="cursors-property">
+            <div class="single-property default">default</div>
+            <div class="single-property alias">alias</div>
+            <div class="single-property all-scroll">all-scroll</div>
+            <div class="single-property auto">auto</div>
+            <div class="single-property cell">cell</div>
+            <div class="single-property col-resize">col-resize</div>
+            <div class="single-property context-menu">context-menu</div>
+            <div class="single-property copy">copy</div>
+            <div class="single-property crosshair">crosshair</div>
+            <div class="single-property e-resize">e-resize</div>
+            <div class="single-property ew-resize">ew-resize</div>
+            <div class="single-property n-resize">n-resize</div>
+            <div class="single-property ne-resize">ne-resize</div>
+            <div class="single-property nesw-resize">nesw-resize</div>
+            <div class="single-property ns-resize">ns-resize</div>
+            <div class="single-property nw-resize">nw-resize</div>
+            <div class="single-property grab">grab</div>
+            <div class="single-property grabbing">grabbing</div>
+            <div class="single-property help">help</div>
+            <div class="single-property move">move</div>
+            <div class="single-property nwse-resize">nwse-resize</div>
+            <div class="single-property no-drop">no-drop</div>
+            <div class="single-property none">none</div>
+            <div class="single-property not-allowed">not-allowed</div>
+            <div class="single-property pointer">pointer</div>
+            <div class="single-property progress">progress</div>
+            <div class="single-property row-resize">row-resize</div>
+            <div class="single-property s-resize">s-resize</div>
+            <div class="single-property se-resize">se-resize</div>
+            <div class="single-property sw-resize">sw-resize</div>
+            <div class="single-property text">text</div>
+            <div class="single-property url">url</div>
+            <div class="single-property w-resize">w-resize</div>
+            <div class="single-property wait">wait</div>
+            <div class="single-property zoom-in">zoom-in</div>
+            <div class="single-property zoom-out">zoom-out</div>
+        </div>
+
+
+    </div>
+</body>
+</html>
