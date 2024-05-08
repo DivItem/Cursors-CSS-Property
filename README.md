@@ -1,1 +1,1 @@
-To see the live project click hear: https://divitem.github.io/Cursors-CSS-Property/index.html
+To see the live preview: https://cursors-css-property.vercel.app/
